@@ -44,8 +44,8 @@ class Ambiguousperson {
     ellipse(eyeX, eyeY, eyeRad1, eyeRad2);
   }
 }
-int Ambiguousperson = 1;
-Ambiguousperson myAmbiguousperson;
+
+Ambiguousperson myAmbiguousperson = new Ambiguousperson();
 
 void setup()
 {
